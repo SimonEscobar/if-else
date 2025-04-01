@@ -1,0 +1,29 @@
+En Python, las estructuras condicionales permiten que el programa tome decisiones en función de si una condición es verdadera o falsa. Las estructuras más comunes son if, elif y else.
+
+¿Qué son if, elif y else?
+if: Es la instrucción principal que evalúa una condición. Si la condición es verdadera, se ejecuta un bloque de código.
+elif: Es una forma abreviada de decir "si no, pero si...". Se usa cuando hay múltiples condiciones que se deben evaluar, y solo se ejecuta el bloque de código del primer elif que sea verdadero.
+else: Es una instrucción que se ejecuta cuando ninguna de las condiciones anteriores (if o elif) son verdaderas.
+
+elif es opcional. Puedes usar tantos elif como necesites para evaluar diferentes condiciones.
+El bloque de código en un if, elif o else debe estar indentado (normalmente con 4 espacios o un tabulador), ya que Python usa la indentación para distinguir los bloques de código.
+
+nota = 85
+
+if nota >= 90:
+    print("Excelente")
+elif nota >= 80:
+    print("Muy bien")
+elif nota >= 70:
+    print("Bien")
+elif nota >= 60:
+    print("Suficiente")
+else:
+    print("Insuficiente")
+
+¿Por qué usar elif y else?
+elif permite evaluar varias condiciones diferentes, sin tener que anidar múltiples if. Esto hace el código más limpio y legible.
+else asegura que se maneje cualquier caso que no haya sido cubierto por las condiciones anteriores, proporcionando una salida predeterminada.
+
+Evaluación secuencial: Python evaluará las condiciones en el orden en que aparecen. En el ejemplo con elif, si una condición se evalúa como verdadera, Python no evaluará las demás condiciones.
+Indentación: En Python, la indentación (espacios o tabulaciones) es muy importante. El bloque de código que se ejecuta debe estar indentado bajo el if, elif o else.
