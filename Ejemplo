@@ -1,0 +1,8 @@
+edad = 18  # Edad de la persona
+
+if edad < 13:
+    print("Eres un niño. Solo puedes ver películas para niños.")
+elif edad >= 13 and edad < 18:
+    print("Eres un adolescente. Puedes ver películas para adolescentes.")
+else:
+    print("Eres un adulto. Puedes ver todas las películas.")
